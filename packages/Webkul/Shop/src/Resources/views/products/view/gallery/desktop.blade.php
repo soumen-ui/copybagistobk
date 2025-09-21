@@ -1,5 +1,5 @@
 <!-- For large screens greater than 1180px. -->
-<div class="sticky top-20 flex h-max gap-8 max-1180:hidden">
+<div class="sticky top-20 flex h-max gap-8 max-1180:hidden my__larave_test_cls6">
     <!-- Product Image and Videos Slider -->
     <div class="flex-24 h-509 flex min-w-[100px] max-w-[100px] flex-wrap place-content-start justify-center gap-2.5 overflow-y-auto overflow-x-hidden">
         <!-- Arrow Up -->
@@ -16,7 +16,7 @@
         <!-- Swiper Container -->
         <div
             ref="swiperContainer"
-            class="flex flex-col max-h-[540px] gap-2.5 [&>*]:flex-[0] overflow-auto scroll-smooth scrollbar-hide"
+            class="my__larave_test_cls8 flex flex-col max-h-[540px] gap-2.5 [&>*]:flex-[0] overflow-auto scroll-smooth scrollbar-hide"
         >
             <template v-for="(media, index) in [...media.images, ...media.videos]">
                 <video
@@ -34,7 +34,7 @@
 
                 <img
                     v-else
-                    :class="`transparent max-h-[100px] min-w-[100px] cursor-pointer rounded-xl border ${isActiveMedia(index) ? 'pointer-events-none border border-navyBlue' : 'border-white'}`"
+                    :class="`my__larave_test_cls9 transparent max-h-[100px] min-w-[100px] cursor-pointer rounded-xl border ${isActiveMedia(index) ? 'pointer-events-none border border-navyBlue' : 'border-white'}`"
                     :src="media.small_image_url"
                     alt="{{ $product->name }}"
                     width="100"

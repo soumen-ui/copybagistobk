@@ -245,10 +245,10 @@ return [
         'shop' => [
             'theme-customizations' => [
                 'all-products' => [
-                    'name' => 'All Products',
+                    'name' => 'All Products----',
 
                     'options' => [
-                        'title' => 'All Products',
+                        'title' => 'All Products---- ****',
                     ],
                 ],
 

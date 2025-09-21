@@ -118,7 +118,7 @@
             {!! view_render_event('bagisto.shop.layout.content.before') !!}
 
             <!-- Page Content Blade Component -->
-            <main id="main" class="bg-white">
+            <main id="main" class="bg-white  my__larave_test_cls">
                 {{ $slot }}
             </main>
 
